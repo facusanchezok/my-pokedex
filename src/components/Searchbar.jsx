@@ -1,17 +1,17 @@
 import React, { useState } from "react";
-import { searchPokemon } from "../api";
 
-const Searchbar = () => {
+const Searchbar = (props) => {
+  const { onSearch } = props;
   const [search, setSearch] = useState("");
-  const [pokemon, setPokemon] = useState();
 
   const onChange = (e) => {
-    // console.log(e.target.value);
     setSearch(e.target.value);
+    if (e.target.value.lenght === 0) {
+      setSearch(null);
+    }
   };
   const onClick = async (e) => {
-    const data = await searchPokemon(search);
-    setPokemon(data);
+    onSearch(search);
   };
   return (
     <div className="searchbar-container">
