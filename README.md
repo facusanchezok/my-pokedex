@@ -1,5 +1,10 @@
-My-Pokedex
-Este proyecto fué creado con Create React App 
+# My Pokedex FS
+
+## Introduction
+
+Este proyecto fue creado con Create React App 
+
+## Code Samples
 
 Para deployar
 Una vez clonado el proyecto ejecutar los siguientes comandos:
@@ -12,6 +17,3 @@ Abrir http://localhost:3000 en el navegador.
 Configurar las Api´s
 La App hace uso de la api copiada de la pagina oficial https://pokeapi.co/
 
-
-
-© facufas1401@gmail.com 2021 - Hecho con <3
