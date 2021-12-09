@@ -15,6 +15,6 @@ La App se ejecutará en el servidor de desarrollo.
 Abrir http://localhost:3000 en el navegador.
 
 Configurar las Api´s
-La App hace uso de la api copiada de la pagina oficial  
+La App hace uso de la api copiada de la pagina oficial:  
 https://pokeapi.co/
 
