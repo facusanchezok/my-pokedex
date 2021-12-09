@@ -4,12 +4,12 @@ const Footer = () => (
   <footer>
     <div>
       Created by
-      <a href=""> facufas1401@gmail.com</a>
+      <a target="_blank" href="https://www.linkedin.com/in/facu-sanchezok/"> Facundo Sanchez </a>
     </div>
-    <div>
-      <a href="https://www.linkedin.com/in/facu-sanchezok/">
-        Sigueme en Linkedin
-      </a>
+    <div className="">
+      <p >
+	  &copy; all rights reserved
+      </p>
     </div>
   </footer>
 );
